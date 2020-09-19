@@ -1,0 +1,8 @@
+a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #03a9f4;
+	&.router-link-exact-active {
+		color: #039be5;
+	}
+}

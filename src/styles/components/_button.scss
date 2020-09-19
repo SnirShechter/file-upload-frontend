@@ -1,0 +1,19 @@
+/* Reset */
+button {
+	background: #29b6f6;
+	color: #fff;
+	border: 0;
+	cursor: pointer;
+	outline: 0;
+	font-size: 16px;
+	font-weight: 500;
+	-webkit-appearance: none;
+	padding: 8px 16px;
+	border-radius: 4px;
+}
+
+button.disabled {
+	background: gray;
+	border-bottom: black;
+	cursor: auto;
+}
